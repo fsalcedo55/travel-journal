@@ -3,7 +3,7 @@ import { LocationMarkerIcon } from "@heroicons/react/solid";
 
 export default function Card(props) {
   return (
-    <div className="flex gap-6 mx-8 my-4">
+    <div className="flex gap-6 mx-16 my-20">
       <img
         src={props.cardData.photo}
         alt="travelphoto"
